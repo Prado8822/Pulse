@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?5gr006');
+  src:  url('../fonts/icomoon.eot?5gr006#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5gr006') format('truetype'),
+    url('../fonts/icomoon.woff?5gr006') format('woff'),
+    url('../fonts/icomoon.svg?5gr006#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-adobeillustrator:before {
+  content: "\e900";
+  color: #ff7c00;
+}
+.icon-autotask:before {
+  content: "\e901";
+  color: #e51937;
+}
+.icon-bigcartel:before {
+  content: "\e902";
+}
+.icon-figma:before {
+  content: "\e903";
+  color: #f24e1e;
+}
+.icon-rollup-dot-js:before {
+  content: "\e904";
+  color: #ec4a3f;
+}
+.icon-vue-dot-js:before {
+  content: "\e905";
+  color: #4fc08d;
+}
